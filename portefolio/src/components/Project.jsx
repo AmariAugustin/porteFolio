@@ -32,15 +32,18 @@ const projects = [{
 
 function Project() {
     return (
-        projects.map((project) => {
+        <div>
+            <h1>Some of my projects</h1>
+        {projects.map((project) => {
             return (
                 <div>
-                    <h1>{project.name}</h1>
+                    <h2>{project.name}</h2>
                     <p>{project.description}</p>
                     <a href={project.link}>Link to the project</a>
                 </div>)
-        })
+        }
+            )}
+        </div>
     )
 }
-
 export default Project;
