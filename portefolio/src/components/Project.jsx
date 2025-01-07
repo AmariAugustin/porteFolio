@@ -19,8 +19,14 @@ const projects = [{
 {
     name : "Porte Folio",
     description : "This actual website.",
-    link : "",
+    link : "https://github.com/AmariAugustin/porteFolio",
     languages : ["React", "Vite", "CSS"]
+}, 
+{
+    name : "Hanoi Tower",
+    description : "A simple Hanoi Tower game in java with a GUI in swing.",
+    link : "https://github.com/AmariAugustin/Hanoi-Tower-Java",
+    languages : ["Java", "Swing"]
 }
 ];
 
