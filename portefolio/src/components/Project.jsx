@@ -32,7 +32,7 @@ const projects = [{
 
 function Project() {
     return (
-        <div className="container">
+        <div className="container" id = "project-section">
             <h1>Some of my projects</h1>
             {projects.map((project) => (
                 <div className="project-card" key={project.name}>
