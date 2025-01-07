@@ -27,13 +27,12 @@ const skills = [{
 function Skills() {
     const [state, setState] = useState('Web Development');
     return (
-        <>
-            <h1>What are my Skills ?</h1>
+        <div className="container">
+            <h1>What are my Skills?</h1>
             {skills.map((skill) => (
-                <button 
-                    key={skill.category} 
-                    className='btn btn-light' 
-                    style={{ margin: '5px' }} 
+                <button
+                    key={skill.category}
+                    className={`btn-category ${skill.category === state ? 'active' : ''}`}
                     onClick={() => setState(skill.category)}
                 >
                     {skill.category}
@@ -43,7 +42,7 @@ function Skills() {
                 {skills.map((skill) => {
                     if (skill.category === state) {
                         return (
-                            <ul key={skill.category}>
+                            <ul key={skill.category} className="skills-list">
                                 {skill.skills.map((s) => (
                                     <li key={s}>{s}</li>
                                 ))}
@@ -53,9 +52,10 @@ function Skills() {
                     return null;
                 })}
             </div>
-        </>
+        </div>
     );
 }
+
 
 
 export default Skills;

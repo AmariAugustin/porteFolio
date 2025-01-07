@@ -32,18 +32,22 @@ const projects = [{
 
 function Project() {
     return (
-        <div>
+        <div className="container">
             <h1>Some of my projects</h1>
-        {projects.map((project) => {
-            return (
-                <div>
+            {projects.map((project) => (
+                <div className="project-card" key={project.name}>
                     <h2>{project.name}</h2>
                     <p>{project.description}</p>
-                    <a href={project.link}>Link to the project</a>
-                </div>)
-        }
-            )}
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">Link to the project</a>
+                    <div className="languages-container">
+                        {project.languages.map((language) => (
+                            <span className="language-badge" key={language}>{language}</span>
+                        ))}
+                    </div>
+                </div>
+            ))}
         </div>
-    )
+    );
 }
+
 export default Project;
