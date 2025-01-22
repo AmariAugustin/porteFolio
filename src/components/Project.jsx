@@ -33,7 +33,8 @@ const projects = [{
 function Project() {
     return (
         <div className="container" id = "project-section">
-            <h1>Some of my projects</h1>
+            <br></br>
+            <h1 id = "scrollspyHeading">Some of my projects</h1>
             {projects.map((project) => (
                 <div className="project-card" key={project.name}>
                     <h2>{project.name}</h2>

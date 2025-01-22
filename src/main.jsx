@@ -4,11 +4,13 @@ import './index.css'
 import AboutMe from './components/AboutMe.jsx'
 import Project from './components/Project.jsx'
 import Skills from './components/Skills.jsx'
+import Navbar from './components/navbar.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AboutMe />
+    <Navbar />
     <Project />
     <Skills />
   </StrictMode>,
