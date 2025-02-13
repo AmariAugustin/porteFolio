@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const skills = [{
     category: 'Web Development',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL', 'Vite']
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL', 'Vite', 'Bootstrap']
 },
 {
     category: 'Software Development',

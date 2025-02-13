@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe.jsx'
 import Project from './components/Project.jsx'
 import Skills from './components/Skills.jsx'
 import Navbar from './components/Navbar.jsx'
+import SocialMedia from './components/SocialMedia.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 createRoot(document.getElementById('root')).render(
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <Navbar />
     <Project />
     <Skills />
+    <SocialMedia />
   </StrictMode>,
 )

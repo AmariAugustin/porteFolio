@@ -14,6 +14,9 @@ function Navbar(){
             <li className="nav-item">
                 <a className="nav-link text-dark" href="#scrollspyHeading3">Skills</a>
             </li>
+            <li className="nav-item">
+                <a className="nav-link text-dark" href="#scrollspyHeading4">Social Media</a>
+            </li>
         </ul>
     </nav>
 </>
