@@ -12,10 +12,13 @@ function Navbar(){
                 <a className="nav-link text-dark" href="#scrollspyHeading">Projects</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-dark" href="#scrollspyHeading3">Skills</a>
+                <a className="nav-link text-dark" href="#scrollspyHeading3">Experiencies</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-dark" href="#scrollspyHeading4">Social Media</a>
+                <a className="nav-link text-dark" href="#scrollspyHeading4">Skills</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link text-dark" href="#scrollspyHeading5">Social Media</a>
             </li>
         </ul>
     </nav>

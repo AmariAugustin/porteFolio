@@ -8,7 +8,7 @@ import emailIcon from '../assets/icons8-email-50.png'
 function SocialMedia() {
     return (
         <div className="container text-center">
-            <h1 id = "scrollspyHeading4">My Social Media</h1>
+            <h1 id = "scrollspyHeading5">My Social Media</h1>
             <ul className="list-inline">
                 <li className="list-inline-item">
                     <a href="https://github.com/AmariAugustin">

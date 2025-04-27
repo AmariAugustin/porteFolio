@@ -27,6 +27,12 @@ const projects = [{
     description : "A simple Hanoi Tower game in java with a GUI in swing.",
     link : "https://github.com/AmariAugustin/Hanoi-Tower-Java",
     languages : ["Java", "Swing"]
+},
+{
+    name : "Basket Duel",
+    description : "A simple basketball game with solo mode and with local and online multiplayer mode.",
+    link : "https://github.com/AmariAugustin/Basket-Duel",
+    languages : ["Python", "Pygame"]
 }
 ];
 

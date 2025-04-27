@@ -28,7 +28,7 @@ function Skills() {
     const [state, setState] = useState('Web Development');
     return (
         <div className="container">
-            <h1 id = "scrollspyHeading3">What are my Skills?</h1>
+            <h1 id = "scrollspyHeading4">What are my Skills?</h1>
             {skills.map((skill) => (
                 <button
                     key={skill.category}
